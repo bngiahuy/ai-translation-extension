@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "Huy Bui - Basic Extension",
+	"version": "0.0.1",
+	"description": "A basic example extension for Chrome",
+	"icons": {
+		"48": "assets/icons-48.png",
+		"128": "assets/icons-128.png"
+	},
+	"action": {
+		"default_popup": "index.html"
+	},
+	"permissions": ["scripting"],
+	"host_permissions": ["http://*/*", "https://*/*"]
+}
