@@ -37,6 +37,9 @@ function App() {
 		try {
 			const googleAIClient = new GoogleGenAI({
 				apiKey: import.meta.env.VITE_GOOGLE_API_KEY,
+				httpOptions: {
+					timeout: 20000, // 20 seconds timeout
+				}
 			});
 
 			const modelParameters = {
