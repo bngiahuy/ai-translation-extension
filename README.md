@@ -15,8 +15,8 @@ An AI-powered Vietnamese-English translation Chrome extension using Gemini API.
 
 1. **Clone or Download the Repository**
    ```
-   git clone https://github.com/your-username/vn-en-translator.git
-   cd vn-en-translator
+   git clone https://github.com/bngiahuy/ai-translation-extension.git
+   cd ai-translation-extension
    ```
 
 2. **Install Dependencies**
